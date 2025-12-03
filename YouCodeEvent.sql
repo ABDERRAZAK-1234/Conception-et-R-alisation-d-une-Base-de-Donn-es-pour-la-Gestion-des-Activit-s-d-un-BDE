@@ -104,3 +104,97 @@ INSERT INTO evenements(`nomEvent`,`description`,`dateEvenement`,`heure`,`lieu`,`
 ("Conférence Finance","Conférence sur la gestion financière","2025-06-15","10:00","Amphi C","3200"),
 ("Expo Art Étudiant","Exposition artistique des étudiants","2025-04-09","11:00","Galerie Campus","2400"),
 ("Session Orientation","Séance d’orientation académique","2025-03-20","09:30","Salle Orientation","1300");
+
+-- INSERTION SUR LA TABLE DE MEMBRES_bde
+INSERT INTO membresbde(`nom`,`prenom`,`email`,`role`,`dateAdhesion`) VALUES
+("Elhaj","Youssef","youssef.elhaj@gmail.com","Président","2025-02-10"),
+("Mansouri","Sara","sara.mansouri@gmail.com","Vice-présidente","2025-02-10"),
+("Bouzid","Anass","anass.bouzid@gmail.com","Secrétaire","2025-02-11"),
+("Cherfi","Imane","imane.cherfi@gmail.com","Trésorière","2025-02-11"),
+("Haddad","Ayoub","ayoub.haddad@gmail.com","Responsable Communication","2025-02-12"),
+("Ziani","Rania","rania.ziani@gmail.com","Responsable Événements","2025-02-12"),
+("Fahmi","Othmane","othmane.fahmi@gmail.com","Responsable Clubs","2025-02-13"),
+("Berkani","Nada","nada.berkani@gmail.com","Responsable Logistique","2025-02-13"),
+("Idrissi","Khalid","khalid.idrissi@gmail.com","Responsable Sponsoring","2025-02-14"),
+("Elmostafa","Meriem","meriem.elmostafa@gmail.com","Chargée des Partenariats","2025-02-14"),
+("Bourki","Hamza","hamza.bourki@gmail.com","Media Manager","2025-02-15"),
+("Saidi","Lina","lina.saidi@gmail.com","Designer","2025-02-15"),
+("Karroumi","Yassin","yassin.karroumi@gmail.com","Photographe","2025-02-16"),
+("Bouziane","Kawtar","kawtar.bouziane@gmail.com","Community Manager","2025-02-16"),
+("Chafai","Mohamed","mohamed.chafai@gmail.com","Animateur","2025-02-17"),
+("Elalami","Hiba","hiba.elalami@gmail.com","Coordinatrice Événements","2025-02-17"),
+("Belarbi","Imad","imad.belarbi@gmail.com","Responsable Technique","2025-02-18"),
+("Ouahidi","Aya","aya.ouahidi@gmail.com","Chargée Relations Étudiants","2025-02-18"),
+("Amzil","Said","said.amzil@gmail.com","Gestion Logistique","2025-02-19"),
+("Ghazali","Salma","salma.ghazali@gmail.com","Assistante BDE","2025-02-19");
+
+-- INSERTION SUR LA TABLE DE ACTIVITE
+INSERT INTO activite(`nom_Activite`,`description`) VALUES
+("Journée Sportive","Organisation d’activités sportives pour les étudiants"),
+("Soirée Culturelle","Événement artistique et musical pour promouvoir la culture"),
+("Tournoi Gaming","Compétition de jeux vidéo entre étudiants"),
+("Atelier Design","Formation sur le design graphique et UX/UI"),
+("Workshop Développement","Atelier de programmation et développement web"),
+("Conférence Motivation","Séance inspirante avec intervenants externes"),
+("Compétition Échecs","Tournoi d’échecs pour amateurs et confirmés"),
+("Film Night","Projection de films pour les étudiants"),
+("Campagne Environnement","Sensibilisation concernant l’écologie et le recyclage"),
+("Sortie Randonnée","Sortie randonnée dans un site naturel"),
+("Journée Talents","Scène ouverte pour révéler les talents étudiants"),
+("Club Expo","Présentation des clubs étudiants du campus"),
+("Foire des Livres","Événement dédié à l’échange et vente de livres"),
+("Atelier Photoshop","Initiation à l’édition d’images et retouches"),
+("Séance Yoga","Activité bien-être et relaxation pour étudiants"),
+("Challenge Innovation","Concours de projets innovants"),
+("Soirée Quiz","Jeu quiz intergroupes avec récompenses"),
+("Atelier Communication","Formation sur la communication et le leadership"),
+("Tournoi Football","Matchs de football entre équipes étudiantes"),
+("Journée Porte Ouverte","Présentation de l’établissement aux nouveaux venus");
+
+-- INSERTION SUR LA TABLE DE SPONSORS
+
+INSERT INTO sponsors(`nomEntreprise`,`email`,`telephone`) VALUES
+("TechVision","contact@techvision.com","+212600112233"),
+("MarocPrint","info@marocprint.ma","+212611223344"),
+("SoftCloud","support@softcloud.io","+212622334455"),
+("GreenEnergy","contact@greenenergy.ma","+212633445566"),
+("AlphaMedia","hello@alphamedia.ma","+212644556677"),
+("FoodBox","service@foodbox.ma","+212655667788"),
+("QuickNet","contact@quicknet.ma","+212666778899"),
+("SmartDev","info@smartdev.io","+212677889900"),
+("FreshMarket","contact@freshmarket.ma","+212688990011"),
+("NovaSolutions","support@novasolutions.com","+212699001122"),
+("EasyPrint","contact@easyprint.ma","+212612345678"),
+("BlueSpace","info@bluespace.io","+212623456789"),
+("EcoPartners","contact@ecopartners.ma","+212634567890"),
+("GoldenTech","support@goldentech.com","+212645678901"),
+("MarocDigital","info@marocdigital.ma","+212656789012"),
+("RedLine","contact@redline.ma","+212667890123"),
+("WebPlus","support@webplus.io","+212678901234"),
+("MegaMarket","info@megamarket.ma","+212689012345"),
+("ProEvents","contact@proevents.com","+212690123456"),
+("CyberWorld","support@cyberworld.io","+212601234567");
+
+-- INSERTION SUR LA TBALE DE TYPE_ACTIVITE
+
+INSERT INTO types_activites(`nomType`) VALUES
+("Sport"),
+("Culture"),
+("Musique"),
+("Conférence"),
+("Workshop"),
+("Formation"),
+("Gaming"),
+("Randonnée"),
+("Théâtre"),
+("Cinéma"),
+("Innovation"),
+("Technologie"),
+("Art"),
+("Écologie"),
+("Leadership"),
+("Communication"),
+("Santé & Bien-être"),
+("Compétition"),
+("Événement Social"),
+("Orientation");
